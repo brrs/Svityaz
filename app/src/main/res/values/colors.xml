@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="seasonWinter">#0091EA</color>
+    <color name="seasonWinterAccent">#EA5900</color>
+    <color name="seasonSpring">#64DD17</color>
+    <color name="seasonSpringAccent">#9017DD</color>
+    <color name="seasonSummer">#DD2C00</color>
+    <color name="seasonSummerAccent">#00B1DD</color>
+    <color name="seasonAutumn">#FFA200</color>
+    <color name="seasonAutumnAccent">#005dff</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+
+    <color name="calendarBackground">#508a7b</color>
+    <color name="selectionColor">#008E69</color>
+    <color name="abbreviationsLabelsColor">#B2FFFFFF</color>
+</resources>
