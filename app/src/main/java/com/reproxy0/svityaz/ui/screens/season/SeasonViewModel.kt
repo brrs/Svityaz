@@ -1,4 +1,4 @@
-package com.reproxy0.svityaz.ui.season
+package com.reproxy0.svityaz.ui.screens.season
 
 import androidx.lifecycle.ViewModel
 

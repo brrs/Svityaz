@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemRentedRoom_cv_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:foreground="?selectableItemBackground"
+    app:cardElevation="0.5dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/itemRentedRoom_ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/efefefe"
+            android:layout_width="@dimen/item_room_number_72dp"
+            android:layout_height="@dimen/item_room_number_72dp"
+            android:textAlignment="center"
+            android:textColor="?android:textColorPrimary"
+            tools:text="Aba" />
+
+        <TextView
+            android:id="@+id/itemRentedRoom_tv_roomNumber"
+            android:layout_width="@dimen/item_room_number_72dp"
+            android:layout_height="@dimen/item_room_number_72dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_background"
+            android:backgroundTint="@color/rentedRoom"
+            android:gravity="center"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="24sp"
+            tools:text="1" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/itemRentedRoom_rv_bookingList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/item_booking" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemAvailableRoom_cv_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:foreground="?selectableItemBackground"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="0dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/itemAvailableRoom_ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/itemAvailableRoom_tv_roomNumber"
+            android:layout_width="@dimen/item_room_number_72dp"
+            android:layout_height="@dimen/item_room_number_72dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_background"
+            android:backgroundTint="@color/availableRoom"
+            android:gravity="center"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="24sp"
+            tools:text="1" />
+
+        <TextView
+            android:id="@+id/itemAvailableRoom_tv_statusMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/message_room_available"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

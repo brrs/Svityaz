@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemBooking_cl_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/itemBooking_im_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/no_content_description"
+        android:src="@drawable/ic_house"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/itemBooking_tv_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/itemBooking_tv_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:paddingHorizontal="16dp"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/itemBooking_tv_peopleNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/itemBooking_im_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="30 June - 2 July" />
+
+    <TextView
+        android:id="@+id/itemBooking_tv_peopleNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="8dp"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/itemBooking_tv_date"
+        app:layout_constraintTop_toBottomOf="@+id/itemBooking_tv_date"
+        tools:text="3" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tmp_people"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/itemBooking_tv_peopleNumber"
+        app:layout_constraintTop_toTopOf="@+id/itemBooking_tv_peopleNumber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

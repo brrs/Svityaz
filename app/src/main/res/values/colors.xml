@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    -->
+
+    <color name="primaryColor">#607D8B</color>
+    <color name="primaryDarkColor">#455A64</color>
+    <color name="primaryLightColor">#CFD8DC</color>
+    <color name="accentColor">#009688</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="iconsColor">#FFFFFF</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="backgroundColor">#BDBDBD</color>
 
     <color name="seasonWinter">#0091EA</color>
     <color name="seasonWinterAccent">#EA5900</color>
@@ -19,6 +31,11 @@
     <color name="red">#FF0000</color>
     <color name="green">#00FF00</color>
     <color name="blue">#0000FF</color>
+    <color name="test">#303F9F</color>
+
+    <color name="rentedRoom">#B71C1C</color>
+    <color name="availableRoom">#43A047</color>
+    <color name="bookedRoom">#FBC02D</color>
 
     <color name="calendarBackground">#508a7b</color>
     <color name="selectionColor">#008E69</color>

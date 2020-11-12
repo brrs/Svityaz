@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.season.SeasonFragment">
+    tools:context=".ui.screens.season.SeasonFragment">
 
     <TextView
         android:id="@+id/seasonFragment_tv_winter"

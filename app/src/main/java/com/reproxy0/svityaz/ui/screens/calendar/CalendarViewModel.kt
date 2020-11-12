@@ -1,4 +1,4 @@
-package com.reproxy0.svityaz.ui.calendar
+package com.reproxy0.svityaz.ui.screens.calendar
 
 import androidx.lifecycle.ViewModel
 

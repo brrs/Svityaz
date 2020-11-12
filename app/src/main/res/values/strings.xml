@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Svityaz</string>
+    <string name="message_room_available">Available</string>
+    <string name="message_room_booked">Booked</string>
+    <string name="message_room_rented">Rented</string>
+    <string name="no_content_description">No content description</string>
+    <string name="tmp_people">people</string>
 </resources>

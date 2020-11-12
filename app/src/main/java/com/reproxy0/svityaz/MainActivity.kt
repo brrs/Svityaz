@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.main_activity)
         setSupportActionBar(toolbar)
 
+        // to ensure that the content doesn't overlap under the status bar
+        mainActivity_cl_root.fitsSystemWindows = true
+
         // compatibility with gesture navigation
         if (Build.VERSION.SDK_INT <= 29)
             window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
